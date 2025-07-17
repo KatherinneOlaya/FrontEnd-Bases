@@ -10,6 +10,9 @@ import {
 
 } from "@iconscout/react-unicons";
 
+import img2 from '../imgs/img2.png'
+import img3 from '../imgs/img3.png'
+import img1 from '../imgs/img1.png'
 export const SidebarData = [
     {
         icon: UilEstate,
@@ -84,4 +87,27 @@ export const CardsData = [
             }
         ],
     }
+]
+
+export const UpdatesData = [
+    {
+        img: img1,
+        name: "Leopoldo Munera",
+        noti : "Aprueba este proyecto",
+        comentario: "¡Amo Santiago a la parrilla",
+    },
+    {
+        img: img2,
+        name: "Ismael peña",
+        noti : "Adora este proyecto",
+        comentario : "Gracias Santiago a la parrila <3",
+    },
+    {
+        img: img3,
+        name: "¿Y el profe?",
+        noti : "...",
+        comentario: "Con mucho cariño al profe",
+    },
+
+
 ]

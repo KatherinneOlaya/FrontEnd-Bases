@@ -1,6 +1,7 @@
 import './App.css'
 import Sidebar from './components/components/Sidebar/Sidebar';
 import MainDash from './components/MainDash/MainDash';
+import RightSide from './components/RightSide/RightSide';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         {/* Aquí puedes agregar más contenido */}
         <Sidebar/>
         <MainDash/>
-        <div></div>
+        <RightSide/> 
+          
         <div></div>
       </div>
     </div>

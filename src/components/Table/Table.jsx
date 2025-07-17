@@ -7,6 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { makeStyles } from '@mui/material';
+import './Table.css'
 
 function createData(Hamburguesa, Id, Ventas, Precio, Estado) {
   return { Hamburguesa, Id, Ventas, Precio, Estado };
@@ -71,6 +72,7 @@ export default function BasicTable() {
       <TableCell align="left">
         <span className="Estado" style={makeStyle(row.Estado)}>{row.Estado}</span>
       </TableCell>
+      <TableCell align = 'left' className="Details">Details</TableCell>
     </TableRow>
   ))}
 </TableBody>
