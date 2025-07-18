@@ -7,7 +7,10 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { makeStyles } from '@mui/material';
-import './Table.css'
+import './Table.css';
+//import React, {useEffect, useState} from 'react'
+
+//import axios from 'axios';
 
 function createData(Hamburguesa, Id, Ventas, Precio, Estado) {
   return { Hamburguesa, Id, Ventas, Precio, Estado };
