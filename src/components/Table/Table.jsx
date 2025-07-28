@@ -12,7 +12,7 @@ export default function BasicTable() {
   const [rows, setRows] = useState([]);
 
 useEffect(() => {
-  fetch('http://localhost:3001/ordenes-recientes')
+  fetch('http://localhost:4000/ordenes-recientes')
     .then(res => res.json())
     .then(data => {
       console.log("Datos recibidos del backend:", data); // <---- AGREGA ESTO
